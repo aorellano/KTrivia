@@ -1,0 +1,131 @@
+//
+//  TriviaQuestions.json
+//  Trivia
+//
+//  Created by Alexis Orellano on 3/1/22.
+//
+
+{
+    "results": [
+        {
+            "id": 0,
+            "category": "Twice",
+            "type": "multiple",
+            "question": "What was the name of Twice's first album?",
+            "correct": "Twicetagram",
+            "incorrect_answers": [
+                "Merry & Happy",
+                "Formula of Love: 0+T=<3",
+                "Eyes Wide Open",
+            ]
+        },
+        {
+            "id": 1,
+            "category": "Twice",
+            "type": "multiple",
+            "question": "Which member of Stray Kids was in the Ooh Ahh music video?",
+            "correct": "Bang Chan",
+            "incorrect_answers": [
+                "Seungmin",
+                "Hyunjin",
+                "Han",
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Twice"
+            "type": "multiple",
+            "question": "Who got eliminated in episode 6 of Sixteen?",
+            "correct": "Momo",
+            "incorrect_answers": [
+                "Nayeon",
+                "Tzuyu",
+                "Mina",
+            ]
+        },
+        {
+            "id": 3,
+            "category": "BTS"
+            "type": "multiple",
+            "question": "Who was the secret member of BTS?",
+            "correct": "V",
+            "incorrect_answers": [
+                "RM",
+                "Jin",
+                "J-hope",
+            ]
+        },
+        {
+            "id": 4,
+            "category": "BTS"
+            "type": "multiple",
+            "question": "Which company rejected J-hope?",
+            "correct": "JYP",
+            "incorrect_answers": [
+                "YG",
+                "SM",
+                "HYBE",
+            ]
+        },
+        {
+            "id": 6,
+            "category": "Blackpink"
+            "type": "multiple",
+            "question": "Who's idea was it for rose to audition?",
+            "correct": "Her dad",
+            "incorrect_answers": [
+                "Her mom",
+                "Her sister",
+                "Her cousin",
+            ]
+        },
+        {
+            "id": 7,
+            "category": "Twice",
+            "type": "multiple",
+            "question": "What is the best dancer in Twice?",
+            "correct": "Momo",
+            "incorrect_answers": [
+                "Jihyo",
+                "Mina",
+                "Nayeon",
+            ]
+        },
+        {
+            "id": 8,
+            "category": "Itzy",
+            "type": "multiple",
+            "question": "Which member of Itzy was on sixteen?",
+            "correct": "Chaeryoung",
+            "incorrect_answers": [
+                "Yeji",
+                "Yuna",
+                "Ryujin",
+            ]
+        },
+        {
+            "id": 9,
+            "category": "BTS"
+            "type": "multiple",
+            "question": "Who nickname is World Wide Handsome?",
+            "correct": "Jin",
+            "incorrect_answers": [
+                "Suga",
+                "Taehyung",
+                "Jungkook",
+            ]
+        },
+        {
+            "id": 10,
+            "category": "Free for All"
+            "type": "multiple",
+            "question": "Who is not Australian?",
+            "correct": "Jennie",
+            "incorrect_answers": [
+                "Rose",
+                "Bang Chan",
+                "Felix",
+            ]
+        }
+    ]
+}
