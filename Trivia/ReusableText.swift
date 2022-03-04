@@ -12,7 +12,7 @@ struct ReusableText: View {
     var text: String
     var size: Int
     var body: some View {
-        Text("Choose Group")
+        Text(text)
             .font(.system(size: 30, weight: .bold, design: .rounded))
             .foregroundColor(.white)
     }

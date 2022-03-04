@@ -3,7 +3,7 @@
     {
       "color" : {
         "platform" : "tvos",
-        "reference" : "systemPurpleColor"
+        "reference" : "systemRedColor"
       },
       "idiom" : "universal"
     }
