@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CategoryView: View {
+    @StateObject var triviaManager = TriviaManager()
+    
     var body: some View {
         NavigationView {
             ZStack {
@@ -17,8 +19,8 @@ struct CategoryView: View {
                     CategoryListView()
                         
                 }
-                .padding(.top, -40)
             }
+            .padding(.top, 10)
         }
     }
 }

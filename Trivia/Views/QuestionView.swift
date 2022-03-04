@@ -8,39 +8,53 @@
 import SwiftUI
 
 struct QuestionView: View {
+    @EnvironmentObject var triviaManager: TriviaManager
+    
     var groupName: String
     var body: some View {
         ZStack {
             BackgroundView()
             VStack(spacing: 40) {
                 HStack {
-                    ReusableText(text: groupName, size: 30)
+                    ReusableText(text: groupName, size: 20)
                     Spacer()
-                    Text("1 out of 5")
+                    Text("\(triviaManager.index + 1) out of \(triviaManager.length)")
                         .foregroundColor(.white)
+                        .font(.system(size: 18))
+                        .fontWeight(.bold)
                 }
                 
-                ProgressBar(progress: 40)
+                .padding(.top, 20)
+            
+                
+                ProgressBar(progress: triviaManager.progress)
+                
                 VStack(alignment: .leading, spacing: 20) {
-                    Text("What was the name of Twice's first album?")
+                    Text(triviaManager.question)
                         .foregroundColor(.white)
-                        .font(.system(size: 20))
-                        .fontWeight(.semibold)
+                        .font(.system(size: 22))
+                        .fontWeight(.bold)
+                    Spacer()
                     
-                    AnswerRow(answer: Answer(text: "Scientist", isCorrect: false))
-                    AnswerRow(answer: Answer(text: "Twicetagram", isCorrect: true))
-                    AnswerRow(answer: Answer(text: "Formula of Love: 0+T=<3", isCorrect: false))
-                    AnswerRow(answer: Answer(text: "Eyes Wide Open", isCorrect: false))
+                    ForEach(triviaManager.answerChoices, id: \.id) { answer in
+                        AnswerRow(answer: answer)
+                            .environmentObject(triviaManager)
+                    }
+  
                 }
+                
+                Spacer()
             }
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .navigationBarHidden(true)
         }
     }
 }
 
 struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
-        QuestionView(groupName: "name")
+        QuestionView(groupName: "Group Name")
+            .environmentObject(TriviaManager())
     }
 }

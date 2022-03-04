@@ -15,7 +15,9 @@ struct CategoryListView: View {
             List {
                 ForEach(groups, id: \.self) { group in
                     ZStack {
-                        NavigationLink(destination: QuestionView(groupName: group)){
+                        NavigationLink(destination: QuestionView(groupName: group)
+                                        .environmentObject(TriviaManager())
+                        ){
                             EmptyView()
                         }.opacity(0)
                         RoundedRectangle(cornerRadius: 10)

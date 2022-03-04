@@ -1,10 +1,3 @@
-//
-//  TriviaQuestions.json
-//  Trivia
-//
-//  Created by Alexis Orellano on 3/1/22.
-//
-
 {
     "results": [
         {
@@ -16,7 +9,7 @@
             "incorrect_answers": [
                 "Merry & Happy",
                 "Formula of Love: 0+T=<3",
-                "Eyes Wide Open",
+                "Eyes Wide Open"
             ]
         },
         {
@@ -28,59 +21,47 @@
             "incorrect_answers": [
                 "Seungmin",
                 "Hyunjin",
-                "Han",
+                "Han"
             ]
         },
         {
             "id": 2,
-            "category": "Twice"
-            "type": "multiple",
-            "question": "Who got eliminated in episode 6 of Sixteen?",
-            "correct": "Momo",
-            "incorrect_answers": [
-                "Nayeon",
-                "Tzuyu",
-                "Mina",
-            ]
-        },
-        {
-            "id": 3,
-            "category": "BTS"
+            "category": "BTS",
             "type": "multiple",
             "question": "Who was the secret member of BTS?",
             "correct": "V",
             "incorrect_answers": [
                 "RM",
                 "Jin",
-                "J-hope",
+                "J-hope"
             ]
         },
         {
-            "id": 4,
-            "category": "BTS"
+            "id": 3,
+            "category": "BTS",
             "type": "multiple",
             "question": "Which company rejected J-hope?",
             "correct": "JYP",
             "incorrect_answers": [
                 "YG",
                 "SM",
-                "HYBE",
+                "HYBE"
             ]
         },
         {
-            "id": 6,
-            "category": "Blackpink"
+            "id": 4,
+            "category": "Blackpink",
             "type": "multiple",
             "question": "Who's idea was it for rose to audition?",
             "correct": "Her dad",
             "incorrect_answers": [
                 "Her mom",
                 "Her sister",
-                "Her cousin",
+                "Her cousin"
             ]
         },
         {
-            "id": 7,
+            "id": 5,
             "category": "Twice",
             "type": "multiple",
             "question": "What is the best dancer in Twice?",
@@ -88,11 +69,11 @@
             "incorrect_answers": [
                 "Jihyo",
                 "Mina",
-                "Nayeon",
+                "Nayeon"
             ]
         },
         {
-            "id": 8,
+            "id": 6,
             "category": "Itzy",
             "type": "multiple",
             "question": "Which member of Itzy was on sixteen?",
@@ -100,31 +81,79 @@
             "incorrect_answers": [
                 "Yeji",
                 "Yuna",
-                "Ryujin",
+                "Ryujin"
             ]
         },
         {
-            "id": 9,
-            "category": "BTS"
+            "id": 7,
+            "category": "BTS",
             "type": "multiple",
             "question": "Who nickname is World Wide Handsome?",
             "correct": "Jin",
             "incorrect_answers": [
                 "Suga",
                 "Taehyung",
-                "Jungkook",
+                "Jungkook"
             ]
         },
         {
-            "id": 10,
-            "category": "Free for All"
+            "id": 8,
+            "category": "Free for All",
             "type": "multiple",
             "question": "Who is not Australian?",
             "correct": "Jennie",
             "incorrect_answers": [
                 "Rose",
                 "Bang Chan",
-                "Felix",
+                "Felix"
+            ]
+        },
+        {
+            "id": 9,
+            "category": "Twice",
+            "type": "multiple",
+            "question": "Who is the youngest member in twice?",
+            "correct": "Tzuyu",
+            "incorrect_answers": [
+                "Chaeyoung",
+                "Mina",
+                "Dahyun"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "BTS",
+            "type": "multiple",
+            "question": "Who is the youngest member in Bts?",
+            "correct": "Jungkook",
+            "incorrect_answers": [
+                "Jimin",
+                "V",
+                "Suga"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "Stray Kids",
+            "type": "multiple",
+            "question": "Who is the youngest member in Stray kids?",
+            "correct": "IN",
+            "incorrect_answers": [
+                "Seungmin",
+                "Han",
+                "Felix"
+            ]
+        },
+        {
+            "id": 12,
+            "category": "Twice",
+            "type": "multiple",
+            "question": "Who is the youngest member in twice?",
+            "correct": "Tzuyu",
+            "incorrect_answers": [
+                "Chaeyoung",
+                "Mina",
+                "Dahyun"
             ]
         }
     ]
